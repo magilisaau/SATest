@@ -79,6 +79,7 @@ class Solution_subArray
         for(int i=0; i<nums.size(); i++)
         {
             sum+=nums[i];
+            sum=sum;
             if(sum<=0) sum=0;
             else  maxsub = (sum>maxsub)?sum:maxsub;
             if(nums[i]>maxone) maxone = nums[i];
