@@ -22,7 +22,7 @@ int main()
 			}	
 			printf("\nInput an integar(0:quit):")
 	}
-
+	printf("done!");
 	return 0;		
 	
 }
