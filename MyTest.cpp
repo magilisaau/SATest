@@ -79,6 +79,7 @@ class Solution_subArray
         for(int i=0; i<nums.size(); i++)
         {
             sum+=nums[i];
+            sum=sum;
             if(sum<=0) sum=0;
             else  maxsub = (sum>maxsub)?sum:maxsub;
             if(nums[i]>maxone) maxone = nums[i];
@@ -92,7 +93,6 @@ class Solution_subArray
 int main()
 {
   cout << "\nReady? go!";
-  /*--------Happy Number Test ------------
 	cout << "\nInput an integar(0:quit):";
 	int num = 0; 
 	cin>>num;
@@ -113,7 +113,6 @@ int main()
 			cin>>num;
 		
 	}
-	-------------------------------------*/
 	
 	return 0;		
 	
