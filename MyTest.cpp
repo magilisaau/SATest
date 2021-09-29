@@ -92,7 +92,6 @@ class Solution_subArray
 int main()
 {
   cout << "\nReady? go!";
-  /*--------Happy Number Test ------------
 	cout << "\nInput an integar(0:quit):";
 	int num = 0; 
 	cin>>num;
@@ -113,7 +112,6 @@ int main()
 			cin>>num;
 		
 	}
-	-------------------------------------*/
 	
 	return 0;		
 	
