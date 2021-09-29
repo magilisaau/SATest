@@ -23,6 +23,7 @@ int main()
 			printf("\nInput an integar(0:quit):")
 	}
 	//printf("done!");
+	//100
 	return 0;		
 	
 }
