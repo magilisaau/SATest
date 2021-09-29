@@ -4,7 +4,6 @@
 #include<algorithm>
 using namespace std;
 
-//4/4
 class Solution_moveos {
 public:
     void moveZeroes(vector<int>& nums) {
